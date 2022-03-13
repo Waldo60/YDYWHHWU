@@ -88,7 +88,7 @@ export -f fun_ip
 clear
 #########VISUALIZACION DE MENU
 msg -bar
-echo -e "\e[97m\033[1;41m        =====>>►► •GENERADOR ADMIN VPS• ◄◄<<=====         \033[1;37m"
+echo -e "\e[97m\033[1;41m        =====>>►► •gen ADN PS• ◄◄<<=====         \033[1;37m"
 msg -bar
 msg -ne "   S.O: " && echo -ne "\033[1;37m$(os_system)"
 msg -ne "       IP: " && echo -e "\033[1;37m$(meu_ipe)"
@@ -163,7 +163,7 @@ let i++
 done
 clear
 msg -bar
-echo -e "\033[1;32m[b] > \033[0;33mINSTALACIÓN ADMIN VPS\033[0m"
+echo -e "\033[1;32m[b] > \033[0;33mINSTALACIÓN ADS\033[0m"
 msg -bar
 read -p "Seleccione el tipo de key: " readvalue
 #CRIA KEY
